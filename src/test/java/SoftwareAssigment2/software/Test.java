@@ -33,7 +33,7 @@ public class Test {
         String result = instance.getName();
         assertEquals(expResult, result);
     }
-
+ 
     /**
      * Test of getDob method, of class Student.
      */
@@ -45,7 +45,7 @@ public class Test {
         DateTime result = instance.getDob();
         assertEquals(expResult, result);
     }
-
+    
     /**
      * Test of getUser method, of class Student.
      */
