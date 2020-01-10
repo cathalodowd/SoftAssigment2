@@ -53,7 +53,7 @@ public class Test {
     public void testGetUser() {
         System.out.println("getUser");
         Student instance = new Student("Mick Coyle", 18, new DateTime("2018-05-05T10:11:12.123"), 1234);
-        String expResult = "Mick Coyle 18";
+        String expResult = "Mick Coyle18";
         String result = instance.getUsername();
         assertEquals(expResult, result);
     }
